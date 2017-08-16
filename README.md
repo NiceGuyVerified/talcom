@@ -2,7 +2,7 @@
 
 when you make changes to any of the files, use:
 
-git config --global user.email "youemail@email.com"
+git config --global user.email "yourmail@email.com"
 
 git config --global user.name "YourusernameName"
 
