@@ -77,12 +77,13 @@ body {
 
 .header .content {
     position: relative;
-    top: 40%;
+    top: 30%;
     margin: 0%;
 }
 
 .header h3 {
-    padding-bottom: 25px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     text-align: center;
 }
 
