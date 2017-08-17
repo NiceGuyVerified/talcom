@@ -163,6 +163,49 @@ font-size: 20px;
 width: 50%;
 }
 
+::placeholder {
+    color: white;
+}
+
+input:not([type='submit']) {
+padding: 10px 15px 11px !important;
+font-size: 18px !important;
+background-color: #57d6c7;
+font-weight: bold;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 2px solid #fff;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+
+input[type=submit] {
+padding: 10px 15px 11px !important;
+font-size: 18px !important;
+background-color: #57d6c7;
+font-weight: bold;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 2px solid #fff;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.signuptext {
+    padding-bottom: 100px;
+}
+
 input:focus,
 select:focus,
 textarea:focus,

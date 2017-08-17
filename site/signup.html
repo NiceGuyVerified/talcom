@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Talcom</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="css/signup.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 </head>
 
@@ -22,17 +22,20 @@
     <div class='page-content'>
         <div class='header'>
             <div class='content'>
-                <h1>Search thousands of chats and profiles <br>from all around the web.</h1>
-                <h3>Or even advertize your own chats or profile</h3>
+                <div class="signuptext">
+                    <h1>Sign up</h1>
+                    <h3>Be sure to fill in all of the required information.</h3>
+                </div>
                 <!--<a href='button'>Start here</a>-->
-                <form action="/action_page.php">
-                    <select class="search-dropdown">
-                      <option value="discord">Discord</option>
-                      <option value="skype">Skype</option>
-                      <option value="kik">Kik</option>
-                    </select>
-                    <input class="search-bar" type="text" name="fname" placeholder="search">
-                </form>
+				<form action="signup_parse.php" method="post">
+                    <div class="typetexts">
+					<p class="typetext"><input type="text" name="username" placeholder="Username"/></p>
+					<p class="typetext"><input type="text" name="email" placeholder="Email"/></p>
+					<p class="typetext"><input type="password" name="pass1" placeholder="Password"/></p>
+					<p class="typetext"><input type="password" name="pass2" placeholder="Confirm"/></p>
+                    </div>
+					<p><input type="submit" name="submit" value="Sign Up" /></p>
+				</form>
             </div>
         </div>
         <div class='mid-content'>
@@ -46,3 +49,6 @@
 </body>
 
 </html>
+
+
+
