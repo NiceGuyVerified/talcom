@@ -15,7 +15,7 @@
             <h1>Talcom</h1>
         </a>
         <nav>
-			<a href='login.html'>Log In</a>
+			<a href='signup.html'>Sign Up</a>
 			<form></form>
         </nav>
     </div>
@@ -23,18 +23,16 @@
         <div class='header'>
             <div class='content'>
                 <div class="signuptext">
-                    <h1>Sign up</h1>
-                    <h3>Be sure to fill in all of the required information.<br />Already Have An Account? <a href="login.html">Log In</a></h3>
+                    <h1>Log In</h1>
+                    <h3>If you haven't made an account yet go to <a href="signup.html">Sign Up</a></h3>
                 </div>
                 <!--<a href='button'>Start here</a>-->
-				<form action="signup_parse.php" method="post">
+				<form action="login_parse.php" method="post">
                     <div class="typetexts">
 					<p class="typetext"><input type="text" name="username" placeholder="Username"/></p>
-					<p class="typetext"><input type="email" name="email" placeholder="Email"/></p>
-					<p class="typetext"><input type="password" name="pass1" placeholder="Password"/></p>
-					<p class="typetext"><input type="password" name="pass2" placeholder="Confirm"/></p>
+					<p class="typetext"><input type="password" name="pass" placeholder="Password"/></p>
                     </div>
-					<p><input type="submit" name="submit" value="Sign Up" /></p>
+					<p><input type="submit" name="submit" value="Log In" /></p>
 				</form>
             </div>
         </div>
@@ -49,6 +47,4 @@
 </body>
 
 </html>
-
-
 
