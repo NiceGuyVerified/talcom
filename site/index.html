@@ -6,13 +6,12 @@
     <title>Talcom</title>
     <link href="css/index.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div class='nav-bar'>
         <a href='index2.html'>
-           <h1>Talcom</h1>
+            <h1>Talcom</h1>
         </a>
         <nav>
             <a href='login.html'>Log in</a>
@@ -21,9 +20,17 @@
     <div class='page-content'>
         <div class='header'>
             <div class='content'>
-                <h1>Search thousands of chats and profiles<br>from all around the web</h1>
-                <h3>Even advertize your own chats or profile</h3>
-                <a href='button'>Start here</a>
+                <h1>Search thousands of chats and profiles <br>from all around the web.</h1>
+                <h3>Or even advertize your own chats or profile</h3>
+                <!--<a href='button'>Start here</a>-->
+                <form action="/action_page.php">
+                    <select class="search-dropdown">
+                      <option value="discord">Discord</option>
+                      <option value="skype">Skype</option>
+                      <option value="kik">Kik</option>
+                    </select>
+                    <input class="search-bar" type="text" name="fname" placeholder="search">
+                </form>
             </div>
         </div>
         <div class='mid-content'>
