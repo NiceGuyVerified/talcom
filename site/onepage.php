@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Talcom</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+<?php
+    include_once 'header.php';
+?>
     <style>
         .search-bar {
             height: 2em;
@@ -35,17 +29,7 @@
         }
 
     </style>
-</head>
 
-<body>
-    <div class='nav-bar'>
-        <a href='index2.html'>
-            <h1>Talcom</h1>
-        </a>
-        <nav>
-            <a href='login.html'>Log in</a>
-        </nav>
-    </div>
     <div class='page-content'>
         <div class='header'>
             <div class="spacer"></div>
